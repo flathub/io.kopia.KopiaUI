@@ -45,8 +45,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia-ui-release/releases/download/20200722.0.225611/kopia-ui_20200722.0.225611_amd64.deb",
-                    "sha256": "0d0083154544bda30432ff1c292d7178b31e2fa5b620dfabf094f7a260e8e873"
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.6.0/kopia-ui_0.6.0_amd64.deb",
+                    "sha256": "021e5b1a3c1f0cbdd9f033f0274a15675085b96cfd39962e14961d66848500be"
                 },
                 {
                     "type": "script",
