@@ -19,8 +19,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v0.7.3" date="2020-10-12"/>
     <release version="v0.7.2" date="2020-10-04"/>
   </releases>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <update_contact>kopia-pmc@googlegroups.com</update_contact>
 </component>
