@@ -1,9 +1,9 @@
 {
     "app-id": "io.kopia.KopiaUI",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "20.08",
+    "base-version": "21.08",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "kopia-ui",
     "separate-locales": false,
@@ -45,8 +45,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.8.2/kopia-ui_0.8.2_amd64.deb",
-                    "sha256": "112a59c08f68eedf93a7d22bf24cb2eed3a0bb09a279ce1a25f109f15c5e196c"
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.4/kopia-ui_0.9.4_amd64.deb",
+                    "sha256": "61f7572b98736f04109a1b746af1ad3b5103fb9c2ed19d763d122dc61004b44a"
                 },
                 {
                     "type": "script",
