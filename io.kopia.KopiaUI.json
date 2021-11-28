@@ -49,6 +49,14 @@
                     "sha256": "347ae46049aa328f498e75664f77468fe16110a912dc27be4eeb57e2b9552713"
                 },
                 {
+                    "type": "file",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.6/kopia-ui_0.9.6_arm64.deb",
+                    "sha256": "ef78c140b27c3fd3a1b72918d1b47e5bfea6f8505dd2c615997acb96ebcbbecd"
+                },
+                {
                     "type": "script",
                     "dest-filename": "kopia-ui.sh",
                     "commands": [
