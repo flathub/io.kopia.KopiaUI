@@ -45,16 +45,16 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.6/kopia-ui_0.9.6_amd64.deb",
-                    "sha256": "347ae46049aa328f498e75664f77468fe16110a912dc27be4eeb57e2b9552713"
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.8/kopia-ui_0.9.8_amd64.deb",
+                    "sha256": "3dc27de17c6d0dd781f3150a03f3f74eb026ff2cdcbf5c01e106ed7588aa8327"
                 },
                 {
                     "type": "file",
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.6/kopia-ui_0.9.6_arm64.deb",
-                    "sha256": "ef78c140b27c3fd3a1b72918d1b47e5bfea6f8505dd2c615997acb96ebcbbecd"
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.9.8/kopia-ui_0.9.8_arm64.deb",
+                    "sha256": "6be4a2a1ae740ee4b13424ff90eede1a35f8aa63e95498a9029461f0e3ed9e7e"
                 },
                 {
                     "type": "script",
