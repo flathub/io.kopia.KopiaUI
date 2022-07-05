@@ -45,8 +45,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.11.0/kopia-ui_0.11.0_amd64.deb",
-                    "sha256": "578bd68d5f2a1784fa06d6fe50b17d39e034a9961d23f0ce43d68f038b89b006",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.11.1/kopia-ui_0.11.1_amd64.deb",
+                    "sha256": "de829b4e4beee6b0d71efec62187dac1780a03a06e7fbfb0357d2a17d7092608",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
@@ -61,8 +61,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.11.0/kopia-ui_0.11.0_arm64.deb",
-                    "sha256": "01656be361526823de4b46a96ee7d8dc38154685ea643ae4c6f531318c2ed589",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.11.1/kopia-ui_0.11.1_arm64.deb",
+                    "sha256": "31f89c3eb0374d77fc8751882c3f97460e6c312bcf58ff1eca70a3ec2527246b",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
