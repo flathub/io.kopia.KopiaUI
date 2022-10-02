@@ -33,9 +33,6 @@
                 "install kopia-ui.sh /app/bin/kopia-ui",
                 "install -Dm644 io.kopia.KopiaUI.appdata.xml /app/share/appdata/io.kopia.KopiaUI.appdata.xml"
             ],
-            "post-install": [
-                "rm /app/share/icons/hicolor/1024x1024/apps/kopia-ui.png"
-            ],
             "cleanup": [
                 "kopia-ui_*.deb",
                 "control.tar.gz",
@@ -48,8 +45,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.12.0/kopia-ui_0.12.0_amd64.deb",
-                    "sha256": "0ecf86a09f46917f9468ca6d066ed8abfb9c6d96d0a3cdad67ddbe11629a93ec",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.12.1/kopia-ui_0.12.1_amd64.deb",
+                    "sha256": "082ddb311dc3792a1bbf8c78c0961a98c1a9dd4d79efdf0a08ac1c9999ba3c63",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
@@ -64,8 +61,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.12.0/kopia-ui_0.12.0_arm64.deb",
-                    "sha256": "04c6690e04cdd684e97d33f8e99beb9892562527b9f4e39bc8caee3531abfab2",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.12.1/kopia-ui_0.12.1_arm64.deb",
+                    "sha256": "f8d38f5faaefa1d5638bd742fc6a1957b059070b2ed82ccb47a2e8fbe71ee43e",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
