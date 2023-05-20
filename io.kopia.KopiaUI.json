@@ -51,6 +51,7 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
+                        "tag-pattern": "^([\d.]+)$",
                         "version-query": "$tag | sub(\"^v\"; \"\")",
                         "timestamp-query": ".published_at",
                         "url-query": ".assets[] | select(.name==\"kopia-ui_\" + $version + \"_amd64.deb\") | .browser_download_url"
@@ -67,6 +68,7 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
+                        "tag-pattern": "^([\d.]+)$",
                         "version-query": "$tag | sub(\"^v\"; \"\")",
                         "timestamp-query": ".published_at",
                         "url-query": ".assets[] | select(.name==\"kopia-ui_\" + $version + \"_arm64.deb\") | .browser_download_url"
