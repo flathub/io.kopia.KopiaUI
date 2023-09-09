@@ -23,6 +23,7 @@
         "--own-name=org.kde.*"
     ],
     "modules": [
+        "libfuse.json",
         "host-command-wrapper.json",
         {
             "name": "kopia-ui",
