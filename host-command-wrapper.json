@@ -1,0 +1,19 @@
+{
+    "name": "host-command-wrapper",
+    "buildsystem": "simple",
+    "build-commands": [
+        "install fusermount-wrapper.sh /app/bin/fusermount",
+        "install fusermount-wrapper.sh /app/bin/fusermount3",
+        "install umount-wrapper.sh /app/bin/umount"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "path": "fusermount-wrapper.sh"
+        },
+        {
+            "type": "file",
+            "path": "umount-wrapper.sh"
+        }
+    ]
+}

@@ -23,6 +23,7 @@
         "--own-name=org.kde.*"
     ],
     "modules": [
+        "host-command-wrapper.json",
         {
             "name": "kopia-ui",
             "buildsystem": "simple",
