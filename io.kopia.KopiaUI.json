@@ -77,12 +77,8 @@
                     }
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "kopia-ui.sh",
-                    "commands": [
-                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-                        "exec zypak-wrapper /app/KopiaUI/kopia-ui \"$@\""
-                    ]
+                    "type": "file",
+                    "path": "kopia-ui.sh"
                 },
                 {
                     "type": "file",
