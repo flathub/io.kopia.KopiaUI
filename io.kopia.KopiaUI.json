@@ -47,13 +47,13 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.13.0/kopia-ui_0.13.0_amd64.deb",
-                    "sha256": "883f1a6a742832cf6fc517cb0cf775378b9c91c32f1e0a88becd66b15cbd00a4",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.14.0/kopia-ui_0.14.0_amd64.deb",
+                    "sha256": "a6b4af75df08292d89feedd38ca2d3d9bac8c722f53625ecfb31ef3922a920c5",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
-                        "tag-pattern": "^([\d.]+)$",
+                        "tag-pattern": "^([d.]+)$",
                         "version-query": "$tag | sub(\"^v\"; \"\")",
                         "timestamp-query": ".published_at",
                         "url-query": ".assets[] | select(.name==\"kopia-ui_\" + $version + \"_amd64.deb\") | .browser_download_url"
@@ -64,13 +64,13 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.13.0/kopia-ui_0.13.0_arm64.deb",
-                    "sha256": "db7bb0ed82859f61a9c57b3135c4cee35fc1e7e31f6250edeedf22fb1e0903d5",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.14.0/kopia-ui_0.14.0_arm64.deb",
+                    "sha256": "57a0ead7e3be50240469f070ef277d7d49f1ccdbf6134eee2c8dbf06499317c0",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
-                        "tag-pattern": "^([\d.]+)$",
+                        "tag-pattern": "^([d.]+)$",
                         "version-query": "$tag | sub(\"^v\"; \"\")",
                         "timestamp-query": ".published_at",
                         "url-query": ".assets[] | select(.name==\"kopia-ui_\" + $version + \"_arm64.deb\") | .browser_download_url"
