@@ -19,8 +19,7 @@
         "--filesystem=host",
         "--filesystem=~/.var/app/",
         "--talk-name=org.freedesktop.Notifications",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--own-name=org.kde.*"
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
         {
