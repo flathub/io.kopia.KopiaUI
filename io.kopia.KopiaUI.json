@@ -21,6 +21,8 @@
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
+        "libfuse.json",
+        "host-command-wrapper.json",
         {
             "name": "kopia-ui",
             "buildsystem": "simple",
