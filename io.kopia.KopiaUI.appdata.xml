@@ -15,9 +15,10 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://camo.githubusercontent.com/8ffa15dd35254d8b90ab280848914106eb879f1e/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f73484a6a5370617357496f2f302e6a7067</image>
+      <image type="source">https://img.youtube.com/vi/sHJjSpasWIo/0.jpg</image>
     </screenshot>
   </screenshots>
+	<launchable type="desktop-id">io.kopia.KopiaUI.desktop</launchable>
   <releases>
     <release version="0.15.0" date="2023-10-22"/>
     <release version="0.14.1" date="2023-09-18"/>
