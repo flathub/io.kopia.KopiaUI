@@ -31,7 +31,9 @@
                 "chmod -R a-s,go+rX,go-w /app/KopiaUI",
                 "sed -i 's|Exec=.*|Exec=kopia-ui %U|' /app/share/applications/kopia-ui.desktop",
                 "install kopia-ui.sh /app/bin/kopia-ui",
-                "install -Dm644 io.kopia.KopiaUI.appdata.xml /app/share/appdata/io.kopia.KopiaUI.appdata.xml"
+                "install -Dm644 io.kopia.KopiaUI.appdata.xml /app/share/appdata/io.kopia.KopiaUI.appdata.xml",
+                "unzip rclone-v*-linux-*.zip",
+                "install rclone-v*-linux-*/rclone /app/bin/rclone"
             ],
             "cleanup": [
                 "kopia-ui_*.deb",
@@ -81,7 +83,42 @@
                 {
                     "type": "file",
                     "path": "io.kopia.KopiaUI.appdata.xml"
+                },
+                {
+                    "type": "file",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.66.0/rclone-v1.66.0-linux-amd64.zip",
+                    "sha256": "b4d304b1dc76001b1d3bb820ae8d1ae60a072afbd3296be904a3ee00b3d4fab9",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
+                        "tag-query": ".tag_name",
+                        "tag-pattern": "^([d.]+)$",
+                        "version-query": "$tag | sub(\"^v\"; \"\")",
+                        "timestamp-query": ".published_at",
+                        "url-query": ".assets[] | select(.name==\"rclone-v\" + $version + \"-linux-amd64.zip\") | .browser_download_url"
+                    }
+                },
+                {
+                    "type": "file",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.66.0/rclone-v1.66.0-linux-arm64.zip",
+                    "sha256": "c50a3ab93082f21788f9244393b19f2426edeeb896eec2e3e05ffb2e8727e075",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
+                        "tag-query": ".tag_name",
+                        "tag-pattern": "^([d.]+)$",
+                        "version-query": "$tag | sub(\"^v\"; \"\")",
+                        "timestamp-query": ".published_at",
+                        "url-query": ".assets[] | select(.name==\"rclone-v\" + $version + \"-linux-arm64.zip\") | .browser_download_url"
+                    }
                 }
+
             ]
         }
     ]
