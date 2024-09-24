@@ -20,8 +20,11 @@
   </screenshots>
 	<launchable type="desktop-id">io.kopia.KopiaUI.desktop</launchable>
   <releases>
-    <release version="1.67.0" date="2024-06-14">
+    <release version="1.68.1" date="2024-09-24">
       <description></description>
+    </release>
+    <release version="1.67.0" date="2024-06-14">
+      <description/>
     </release>
     <release version="0.17.0" date="2024-04-16"/>
     <release version="0.16.1" date="2024-03-26"/>
