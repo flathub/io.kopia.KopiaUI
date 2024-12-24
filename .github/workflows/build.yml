@@ -1,24 +1,24 @@
 on:
     push:
-      branches: [main]
+        branches: [main]
     pull_request:
-  name: CI
-  jobs:
+name: CI
+jobs:
     flatpak:
-      name: "Flatpak"
-      runs-on: ubuntu-latest
-      container:
-        image: bilelmoussaoui/flatpak-github-actions:gnome-44
-        options: --privileged
-      strategy:
-        matrix:
-          arch: [x86_64, aarch64]
-        # Don't fail the whole workflow if one architecture fails
-        fail-fast: false
-      steps:
-      - uses: actions/checkout@v4
-      - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
-        with:
-          bundle: palette.flatpak
-          manifest-path: org.gnome.zbrown.Palette.yml
-          cache-key: flatpak-builder-${{ github.sha }}
+        name: "Flatpak"
+        runs-on: ubuntu-latest
+        container:
+            image: bilelmoussaoui/flatpak-github-actions:gnome-44
+            options: --privileged
+        strategy:
+            matrix:
+                arch: [x86_64, aarch64]
+            # Don't fail the whole workflow if one architecture fails
+            fail-fast: false
+        steps:
+        - uses: actions/checkout@v4
+        - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+          with:
+            bundle: palette.flatpak
+            manifest-path: org.gnome.zbrown.Palette.yml
+            cache-key: flatpak-builder-${{ github.sha }}
