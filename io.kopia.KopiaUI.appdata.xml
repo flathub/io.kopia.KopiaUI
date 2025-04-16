@@ -8,6 +8,11 @@
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://kopia.io/</url>
   <url type="bugtracker">https://github.com/flathub/io.kopia.KopiaUI/issues</url>
+  <url type="faq">https://kopia.io/docs/faqs/</url>
+  <url type="help">https://kopia.io/docs/</url>
+  <url type="contact">https://slack.kopia.io/</url>
+  <url type="vcs-browser">https://github.com/kopia/kopia/</url>
+  <url type="contribute">https://kopia.io/docs/contribution-guidelines/</url>
   <description>
     <p>
       Cross-platform backup tool for Windows, macOS &amp; Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
