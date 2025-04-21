@@ -1,0 +1,37 @@
+on:
+    push:
+        branches: [master]
+    pull_request:
+name: CI
+jobs:
+    flatpak:
+        name: "Flatpak"
+        runs-on: ubuntu-24.04
+        container:
+            image: bilelmoussaoui/flatpak-github-actions:gnome-44
+            options: --privileged
+        strategy:
+            matrix:
+                arch: [x86_64, aarch64]
+            # Don't fail the whole workflow if one architecture fails
+            fail-fast: false
+        steps:
+        - uses: actions/checkout@v4
+        # Docker is required by the docker/setup-qemu-action which enables emulation
+        - name: Install deps
+          if: ${{ matrix.arch != 'x86_64' }}
+          run: |
+            dnf -y install docker
+        - name: Set up QEMU
+          if: ${{ matrix.arch != 'x86_64' }}
+          id: qemu
+          uses: docker/setup-qemu-action@v2
+          with:
+            platforms: ${{ matrix.arch }}
+        - uses: flatpak/flatpak-github-actions/flatpak-builder@master
+          with:
+            bundle: KopiaUI_${{ matrix.arch }}.flatpak
+            manifest-path: io.kopia.KopiaUI.json
+            cache-key: flatpak-builder-${{ github.sha }}
+            upload-artifact: true
+            arch: ${{ matrix.arch }}
