@@ -17,6 +17,7 @@
     <p>
       Cross-platform backup tool for Windows, macOS &amp; Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
     </p>
+    <p>Disclaimer: This wrapper is not associated with, supported by, or verified by the Kopia Project.</p>
   </description>
   <screenshots>
     <screenshot type="default">
