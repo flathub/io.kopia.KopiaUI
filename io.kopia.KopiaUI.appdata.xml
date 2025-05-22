@@ -21,7 +21,16 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://img.youtube.com/vi/sHJjSpasWIo/0.jpg</image>
+      <image>https://raw.githubusercontent.com/sraaronrock/io.kopia.KopiaUI/refs/heads/master/screenshots/kopia1.png</image>
+      <caption>Main application window</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/sraaronrock/io.kopia.KopiaUI/refs/heads/master/screenshots/kopia2.png</image>
+      <caption>Task window</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/sraaronrock/io.kopia.KopiaUI/refs/heads/master/screenshots/kopia3.png</image>
+      <caption>Settings window</caption>
     </screenshot>
   </screenshots>
 	<launchable type="desktop-id">io.kopia.KopiaUI.desktop</launchable>
