@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>io.kopia.KopiaUI</id>
   <name>Kopia</name>
-  <icon type="remote">https://avatars.githubusercontent.com/u/16365723?s=200&v=4</icon>
+  <icon type="remote">https://raw.githubusercontent.com/flathub/io.kopia.KopiaUI/refs/heads/master/screenshots/icon.png</icon>
   <project_license>Apache-2.0</project_license>
   <developer_name>Kopia Authors</developer_name>
   <summary>Backup solution</summary>
