@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>io.kopia.KopiaUI</id>
-  <name>KopiaUI</name>
+  <name>Kopia</name>
+  <icon type="remote">https://raw.githubusercontent.com/flathub/io.kopia.KopiaUI/refs/heads/master/screenshots/icon.png</icon>
   <project_license>Apache-2.0</project_license>
   <developer_name>Kopia Authors</developer_name>
   <summary>Backup solution</summary>
@@ -34,11 +35,15 @@
     </screenshot>
   </screenshots>
   <branding>
-    <color type="primary" scheme_preference="light">#62a0ea</color>
-    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+    <color type="primary" scheme_preference="light">#ffc080</color>
+    <color type="primary" scheme_preference="dark">#996633</color>
   </branding>	
 	<launchable type="desktop-id">io.kopia.KopiaUI.desktop</launchable>
   <releases>
+    <release version="1.69.3" date="2025-05-21">  
+      <description></description>
+      <url type="details">https://github.com/kopia/kopia/releases/tag/v0.20.1</url>  
+    </release>	  
     <release version="1.69.2" date="2025-05-01">  
       <description></description>
       <url type="details">https://github.com/kopia/kopia/releases/tag/v0.20.0</url>  
