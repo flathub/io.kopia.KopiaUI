@@ -89,8 +89,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/rclone/rclone/releases/download/v1.69.3/rclone-v1.69.3-linux-amd64.zip",
-                    "sha256": "14c841f24de6dfb5b914900b345b02e6a00278ad20e7502041d856a4f1d4e221",
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.70.0/rclone-v1.70.0-linux-amd64.zip",
+                    "sha256": "bc6ae0c3f19ea4bf24fa265804fd38a4ad8cf4e5013db228d3d6e09ca20bf6cf",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
@@ -106,8 +106,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/rclone/rclone/releases/download/v1.69.3/rclone-v1.69.3-linux-arm64.zip",
-                    "sha256": "c23f03c11931b2dd4c6ccc091a11ec508f1ca936cc8916ac69669be5b433941c",
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.70.0/rclone-v1.70.0-linux-arm64.zip",
+                    "sha256": "3d27c6c30a6fa34fe99bcaa021de0c948059af4e76486fb022b24315d5c2841e",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
