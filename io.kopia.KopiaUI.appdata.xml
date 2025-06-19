@@ -40,12 +40,15 @@
   </branding>	
 	<launchable type="desktop-id">io.kopia.KopiaUI.desktop</launchable>
   <releases>
-    <release version="1.69.3" date="2025-05-21">  
+    <release version="1.70.1" date="2025-06-19">
       <description></description>
+    </release>
+    <release version="1.69.3" date="2025-05-21">  
+      <description/>
       <url type="details">https://github.com/kopia/kopia/releases/tag/v0.20.1</url>  
     </release>	  
     <release version="1.69.2" date="2025-05-01">  
-      <description></description>
+      <description/>
       <url type="details">https://github.com/kopia/kopia/releases/tag/v0.20.0</url>  
     </release>
     <release version="1.69.1" date="2025-02-14">
