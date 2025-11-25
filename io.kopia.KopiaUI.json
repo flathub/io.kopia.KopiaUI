@@ -47,8 +47,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.22.0/kopia-ui_0.22.0_amd64.deb",
-                    "sha256": "cf07756926c0b9a94d959e6c3bdb3ed9fca096460ad61a8b76c1fbb25bd7708d",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.22.1/kopia-ui_0.22.1_amd64.deb",
+                    "sha256": "452bedcf6ed6034671289e476b56bee045297f1828c707e85347d21a003ec982",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
@@ -64,8 +64,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/kopia/kopia/releases/download/v0.22.0/kopia-ui_0.22.0_arm64.deb",
-                    "sha256": "3c63d090ade0ac32d1e970552919de90ca8bd8ae40ce32a0eeb68eba1b401633",
+                    "url": "https://github.com/kopia/kopia/releases/download/v0.22.1/kopia-ui_0.22.1_arm64.deb",
+                    "sha256": "110fb4f79d67f539ae5824b36d8a67e702951c686360490b9c8dbf520e936d8b",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
@@ -89,8 +89,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/rclone/rclone/releases/download/v1.71.2/rclone-v1.71.2-linux-amd64.zip",
-                    "sha256": "ab9fa5877cee91c64fdfd61a27028a458cf618b39259e5c371dc2ec34a12e415",
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.72.0/rclone-v1.72.0-linux-amd64.zip",
+                    "sha256": "f3757aa829828c0f3359301bea25eef4d4fd62de735c47546ee6866c5b5545e2",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
@@ -106,8 +106,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/rclone/rclone/releases/download/v1.71.2/rclone-v1.71.2-linux-arm64.zip",
-                    "sha256": "e2e2efc7ed143026352d60216ef0d46d3fa4fe9d647eff1bd929e6fea498e6f1",
+                    "url": "https://github.com/rclone/rclone/releases/download/v1.72.0/rclone-v1.72.0-linux-arm64.zip",
+                    "sha256": "c1669ef42d4ad65e3bb3f2cf0b2acf76cf0cbffefe463349a4f2244d8dbed701",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/rclone/rclone/releases/latest",
