@@ -15,10 +15,10 @@
   <url type="vcs-browser">https://github.com/kopia/kopia/</url>
   <url type="contribute">https://kopia.io/docs/contribution-guidelines/</url>
   <description>
+	<p>**NOTE: This wrapper is not associated with, supported by, or verified by the Kopia Project.**</p>
     <p>
       Cross-platform backup tool for Windows, macOS &amp; Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
     </p>
-    <p>Disclaimer: This wrapper is not associated with, supported by, or verified by the Kopia Project.</p>
   </description>
   <screenshots>
     <screenshot type="default">
