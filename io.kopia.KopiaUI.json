@@ -50,6 +50,8 @@
                     "url": "https://github.com/kopia/kopia/releases/download/v0.22.3/kopia-ui_0.22.3_amd64.deb",
                     "sha256": "6db8bfd964c3c90a5e15cd13a9783ee6673a458cb7200a3e9adc18268f17c434",
                     "x-checker-data": {
+                        "is-main-source": true,
+                        "stable-only": true,
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
@@ -67,6 +69,8 @@
                     "url": "https://github.com/kopia/kopia/releases/download/v0.22.3/kopia-ui_0.22.3_arm64.deb",
                     "sha256": "5486bbb6c5b30bb9d677f3412007ddb56c6d905bbba490869a48eef14e92fb72",
                     "x-checker-data": {
+                        "is-main-source": true,
+                        "stable-only": true,
                         "type": "json",
                         "url": "https://api.github.com/repos/kopia/kopia/releases/latest",
                         "tag-query": ".tag_name",
